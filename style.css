@@ -5,15 +5,14 @@ body {
 }
 
 body {
-  background: #000;
-  color: white;
+  background: #001C62;
+  color: #C0C0C0;
   position: relative;
-  font-family: 'Ubuntu Mono',
-    monospace;
+  font-family: Merriweather, serif;
 }
 
 a {
-  color: #019cdc;
+  color: #3a6ea5;
   font-size: 12px;
   display: block;
 }
@@ -22,35 +21,39 @@ a {
  of links when you "mouseover" */
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: #ff6100;
 }
 
 /* ":visited" will effect the color
  of links you have previously clicked on */
 a:visited {
-  color: #f58428;
+  color: #ff6100;
 }
 
 .link-heading {
   display: block;
-  font-size: 12px;
+  font-size: 18px;
+}
+
+p{ 
+max-width: 300px; 
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #ff6100;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: #3a6ea5;
 }
 
 .square-three .inner {
-  background: #019cdc;
+  background: #C0C0C0;
 }
 
 .outer {
   box-sizing: border-box;
-  padding: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
